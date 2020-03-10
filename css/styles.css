@@ -6,7 +6,7 @@ body {
 
 div {
   float: left;
-  width: 33%;
+  width: 31%
  
 }
 
@@ -15,8 +15,19 @@ p {
   
 }
 
+div.before {
+  background-color: bisque;
+}
+
 div.during {
   color: purple;
+  background-color: chartreuse;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+div.after {
+  background-color: cornsilk;
 }
 
 h2 {
